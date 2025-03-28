@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VSCode settings
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+ENV/
+venv/
+*.egg-info/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# GCP / Secret Keys
+*.json
+!data/*.json  # ← 데이터 폴더 내 json만 예외로 허용하고 싶을 경우
+
+# Logs and temporary
+*.log
+*.tmp
+*.bak
+
+# Model weights (optional)
+*.pth
+
+# Streamlit upload
+anomaly_result.csv
